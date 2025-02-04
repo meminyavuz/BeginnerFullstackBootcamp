@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibraryManagementSystem.Migrations
 {
     [DbContext(typeof(LibDbContext))]
-    [Migration("20250203204616_AddReturnDateToBorrowTable")]
-    partial class AddReturnDateToBorrowTable
+    [Migration("20250203222212_AddPublishYearToBook")]
+    partial class AddPublishYearToBook
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,6 +26,10 @@ namespace LibraryManagementSystem.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Genre")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -34,6 +38,12 @@ namespace LibraryManagementSystem.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER")
                         .HasDefaultValue(true);
+
+                    b.Property<int>("NumOfPage")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("PublishYear")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -78,6 +88,10 @@ namespace LibraryManagementSystem.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Surname")
                         .IsRequired()
                         .HasColumnType("TEXT");
 

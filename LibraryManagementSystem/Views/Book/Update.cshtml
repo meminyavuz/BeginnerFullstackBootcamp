@@ -1,0 +1,41 @@
+@model Book
+
+<form asp-action="Update" asp-controller="Book" method="post">
+    <input type="hidden" asp-for=Id>
+    <h2 class="mb-4">Book Update</h2>
+
+    <div class="row mb-3">
+        <div class="col-md-6 mb-3">
+            <label for="inputName" class="form-label">Book Name</label>
+            <input type="text" class="form-control" id="inputName" asp-for="Title" required>
+        </div>
+        <div class="col-md-6 mb-3">
+            <label for="inputAuthor" class="form-label">Book Author</label>
+            <input type="text" class="form-control" id="inputAuthor" asp-for="Author" required>
+        </div>
+        <div class="col-md-6 mb-3">
+            <label for="inputNumOfPage" class="form-label">Number Of Page</label>
+            <input type="number" class="form-control" id="inputNumOfPage" asp-for="NumOfPage" required>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label for="inputPublishYear" class="form-label">Publish Year</label>
+            <input type="number" class="form-control" id="inputPublishYear" asp-for="PublishYear" required>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label for="inputGenre" class="form-label">Genre</label>
+            <select id="inputGenre" class="form-select" asp-for="Genre" required>
+                <option value="" disabled selected>Choose...</option>
+                <option value="Historical Fiction">Historical Fiction</option>
+                <option value="Romance">Romance</option>
+                <option value="Fairy Tale">Fairy Tale</option>
+                <option value="Horror">Horror</option>
+                <option value="Science Fiction">Science Fiction</option>
+            </select>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Update</button>
+
+</form>

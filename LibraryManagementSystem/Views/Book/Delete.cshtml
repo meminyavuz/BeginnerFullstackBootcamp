@@ -1,0 +1,13 @@
+@model LibraryManagementSystem.Models.Book
+
+<h2>Are you sure you want to delete this book?</h2>
+
+<div>
+    <h4>@Model.Title</h4>
+    <p>By @Model.Author</p>
+</div>
+
+<form method="post">
+    <input type="submit" value="Delete" class="btn btn-danger" />
+    <a href="@Url.Action("Index", "Book")" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,55 @@
+@model IEnumerable<LibraryManagementSystem.Models.Book>
+
+<div class="container mt-5">
+
+    <a asp-controller="Book" asp-action="Create" class="btn btn-primary w-100 mb-4">Create</a>
+
+    <h2 class="mb-4">Book List</h2>
+
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title</th>
+                <th scope="col">Author</th>
+                <th scope="col">Number of Pages</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Publish Year</th>
+                <th scope="col">Availability</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <th scope="row">@book.Id</th>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.NumOfPage</td>
+                    <td>@book.Genre</td>
+                    <td>@book.PublishYear</td>
+                    <td>
+                        @if (book.IsEnable)
+                        {
+                            <span class="badge bg-success">Available</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">Not Available</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-controller="Book" asp-action="Update" asp-route-id=@book.Id
+                            class="btn btn-outline-warning btn-sm">Update</a>
+                    </td>
+                    <td>
+                        <a asp-controller="Book" asp-action="Delete" asp-route-id=@book.Id
+                            class="btn btn-outline-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

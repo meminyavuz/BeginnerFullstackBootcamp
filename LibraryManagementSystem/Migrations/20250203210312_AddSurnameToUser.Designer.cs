@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibraryManagementSystem.Migrations
 {
     [DbContext(typeof(LibDbContext))]
-    [Migration("20250203203529_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20250203210312_AddSurnameToUser")]
+    partial class AddSurnameToUser
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,6 +26,10 @@ namespace LibraryManagementSystem.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Author")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Genre")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -34,6 +38,9 @@ namespace LibraryManagementSystem.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER")
                         .HasDefaultValue(true);
+
+                    b.Property<int>("NumOfPage")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -56,6 +63,9 @@ namespace LibraryManagementSystem.Migrations
                     b.Property<DateTime>("BorrowDate")
                         .HasColumnType("TEXT");
 
+                    b.Property<DateTime>("ReturnDate")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("UserId")
                         .HasColumnType("INTEGER");
 
@@ -75,6 +85,10 @@ namespace LibraryManagementSystem.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Surname")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
