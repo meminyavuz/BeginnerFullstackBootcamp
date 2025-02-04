@@ -1,0 +1,72 @@
+@model BorrowViewModel
+
+<h2>Books Available for Borrowing</h2>
+
+<form asp-action="Borrow" method="post">
+    <input type="hidden" name="UserId" value="@Model.UserId" />
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Number Of Page</th>
+                <th>Genre</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model.AvailableBooks)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.NumOfPage</td>
+                    <td>@book.Genre</td>
+                    <td>
+                        <button type="submit" name="bookId" value="@book.Id" class="btn btn-primary btn-sm">
+                            Borrow
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2>Your Borrowed Books</h2>
+
+    @if (Model.BorrowedBooks != null && Model.BorrowedBooks.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Book Name</th>
+                    <th>Author</th>
+                    <th>Borrowed Date</th>
+                    <th>Return Date</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var borrow in Model.BorrowedBooks)
+                {
+                    <tr>
+                        <td>@borrow.Book.Title</td>
+                        <td>@borrow.Book.Author</td>
+                        <td>@borrow.BorrowDate.ToShortDateString()</td>
+                        <td>@borrow.ReturnDate.ToShortDateString()</td>
+                        <td>
+                           <a asp-controller="Borrow" asp-action="Return" asp-route-id="@borrow.Id" class="btn btn-outline-danger btn-sm">
+                            Return
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>You have not borrowed any books yet.</p>
+    }
+</form>

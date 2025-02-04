@@ -44,6 +44,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vay9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/Views/Borrow/Borrow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9ycm93L0JvcnJvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/Views/Borrow/Return.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9ycm93L1JldHVybi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,6 +66,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/Views/_ViewImports.cshtml]

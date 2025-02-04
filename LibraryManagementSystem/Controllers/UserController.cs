@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LibraryManagementSystem.Controllers
 {
-    public class BookController : Controller
+    public class UserController : Controller
     {
         private readonly LibDbContext _context;
 
-        public BookController(LibDbContext context)
+        public UserController(LibDbContext context)
         {
             _context = context;
         }
@@ -16,7 +16,7 @@ namespace LibraryManagementSystem.Controllers
         public async Task<IActionResult> Index()
         {
 
-            return View(await _context.Books.ToListAsync());
+            return View(await _context.Users.ToListAsync());
         }
 
 
@@ -27,15 +27,15 @@ namespace LibraryManagementSystem.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Book book)
+        public async Task<IActionResult> Create(User user)
         {
             if (ModelState.IsValid)
             {
-                _context.Books.Add(book);
+                _context.Users.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index", "Book");
+                return RedirectToAction("Index", "User");
             }
-            return View(book);
+            return View(user);
         }
 
         [HttpGet]
@@ -43,48 +43,49 @@ namespace LibraryManagementSystem.Controllers
         {
             if (id != 0)
             {
-                var selectedBook = await _context.Books.FindAsync(id);
-                return View(selectedBook);
+                var selectedUser = await _context.Users.FindAsync(id);
+                return View(selectedUser);
             }
             return NotFound();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Update(Book updatedBook, int id)
+        public async Task<IActionResult> Update(User updatedUser, int id)
         {
             if (ModelState.IsValid)
             {
-                _context.Update(updatedBook);
+                _context.Update(updatedUser);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Index", "Book");
+                return RedirectToAction("Index", "User");
             }
-            return View(updatedBook);
+            return View(updatedUser);
         }
 
+        [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
-            var book = await _context.Books.FindAsync(id);
-            if (book == null)
+            var user = await _context.Users.FindAsync(id);
+            if (user == null)
             {
                 return NotFound();
             }
 
-            return View(book);
+            return View(user);
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken] 
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
-            var book = _context.Books.FirstOrDefault(b => b.Id == id);
-            if (book != null)
+            var user = _context.Users.FirstOrDefault(u => u.Id == id);
+            if (user != null)
             {
-                _context.Books.Remove(book); 
-                await _context.SaveChangesAsync(); 
+                _context.Users.Remove(user);
+                await _context.SaveChangesAsync();
             }
             return RedirectToAction("Index"); // Silme işleminden sonra liste sayfasına yönlendirilir
         }
