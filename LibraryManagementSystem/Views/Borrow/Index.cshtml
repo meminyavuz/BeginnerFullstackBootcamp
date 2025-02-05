@@ -1,0 +1,26 @@
+@model IEnumerable<Borrow>
+
+
+<div class="container mt-5">
+    <h2>Borrowed Books List</h2>
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Borrowed By</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var borrow in Model)
+            {
+                <tr>
+                    <td>@borrow.Book.Title</td>
+                    <td>@borrow.Book.Author</td>
+                    <td>@borrow.User.Name @borrow.User.Surname</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

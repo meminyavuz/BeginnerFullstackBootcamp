@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yEnP4UKwBaUAHvXEb4u0kcUco+3BWEhsRYI7TmivBNQ=",
+  "Hash": "XxV+i21QZeHNSA6PdIL4XZguxJvQnG2VYsIZJuhHFIs=",
   "Source": "LibraryManagementSystem",
   "BasePath": "_content/LibraryManagementSystem",
   "Mode": "Default",
@@ -563,12 +563,12 @@
       "OriginalItemSpec": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-b9sayid5wm.gz",
+      "Identity": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-cs7v0p45yv.gz",
       "SourceId": "LibraryManagementSystem",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/LibraryManagementSystem",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=cs7v0p45yv}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -577,8 +577,8 @@
       "RelatedAsset": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pw5l7j5n1s",
-      "Integrity": "KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=",
+      "Fingerprint": "8wtskbl48h",
+      "Integrity": "WHYrU4F1qi54zxnlbgrmyLIzIvvfn/tvL8i5OjAwY1M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/css/site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "cs7v0p45yv",
+      "Integrity": "LL0hHEGonJkl7yB8+TmDV3aJei4HtQrMmOo+2cT279g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -1443,6 +1443,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/books.jpg",
+      "SourceId": "LibraryManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/",
+      "BasePath": "_content/LibraryManagementSystem",
+      "RelativePath": "images/books#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n3a65qhzba",
+      "Integrity": "oxV/kjRZk6knIsYwCq8nu/KRcVoZ+EEBBuMji1J1/S8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/books.jpg"
+    },
+    {
+      "Identity": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/library.png",
+      "SourceId": "LibraryManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/",
+      "BasePath": "_content/LibraryManagementSystem",
+      "RelativePath": "images/library#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jzizcxx9v5",
+      "Integrity": "30rghguazsQ8UdUkrf44PdM9IZmtofQZIOi1F1mosrY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/library.png"
+    },
+    {
+      "Identity": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/library2.png",
+      "SourceId": "LibraryManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/",
+      "BasePath": "_content/LibraryManagementSystem",
+      "RelativePath": "images/library2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2papb92x3k",
+      "Integrity": "mu6st9CAFfroh8QBoQ6x8X7EJyoM7qU5NdaYrYGmx+w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/library2.png"
     },
     {
       "Identity": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/js/site.js",
@@ -2728,13 +2791,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-b9sayid5wm.gz",
+      "Route": "css/site.cs7v0p45yv.css",
+      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-cs7v0p45yv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002463054187"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2807,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "405"
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"WHYrU4F1qi54zxnlbgrmyLIzIvvfn/tvL8i5OjAwY1M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 18:49:59 GMT"
+          "Value": "Wed, 05 Feb 2025 02:20:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +2835,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"LL0hHEGonJkl7yB8+TmDV3aJei4HtQrMmOo+2cT279g=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "cs7v0p45yv"
         },
         {
           "Name": "label",
@@ -2786,12 +2849,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-LL0hHEGonJkl7yB8+TmDV3aJei4HtQrMmOo+2cT279g="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.cs7v0p45yv.css",
       "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2864,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "854"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2872,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"LL0hHEGonJkl7yB8+TmDV3aJei4HtQrMmOo+2cT279g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 18:49:59 GMT"
+          "Value": "Wed, 05 Feb 2025 02:20:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2886,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "cs7v0p45yv"
         },
         {
           "Name": "label",
@@ -2831,13 +2894,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-LL0hHEGonJkl7yB8+TmDV3aJei4HtQrMmOo+2cT279g="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-b9sayid5wm.gz",
+      "Route": "css/site.cs7v0p45yv.css.gz",
+      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-cs7v0p45yv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2909,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "405"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +2917,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"WHYrU4F1qi54zxnlbgrmyLIzIvvfn/tvL8i5OjAwY1M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 18:49:59 GMT"
+          "Value": "Wed, 05 Feb 2025 02:20:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +2939,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "cs7v0p45yv"
         },
         {
           "Name": "label",
@@ -2884,18 +2947,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA="
+          "Value": "sha256-WHYrU4F1qi54zxnlbgrmyLIzIvvfn/tvL8i5OjAwY1M="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-b9sayid5wm.gz",
+      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-cs7v0p45yv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002463054187"
         }
       ],
       "ResponseHeaders": [
@@ -2905,15 +2968,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "405"
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"WHYrU4F1qi54zxnlbgrmyLIzIvvfn/tvL8i5OjAwY1M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 18:49:59 GMT"
+          "Value": "Wed, 05 Feb 2025 02:20:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2933,13 +2996,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"LL0hHEGonJkl7yB8+TmDV3aJei4HtQrMmOo+2cT279g=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-LL0hHEGonJkl7yB8+TmDV3aJei4HtQrMmOo+2cT279g="
         }
       ]
     },
@@ -2954,7 +3017,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "854"
         },
         {
           "Name": "Content-Type",
@@ -2962,11 +3025,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"LL0hHEGonJkl7yB8+TmDV3aJei4HtQrMmOo+2cT279g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 18:49:59 GMT"
+          "Value": "Wed, 05 Feb 2025 02:20:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2976,13 +3039,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-LL0hHEGonJkl7yB8+TmDV3aJei4HtQrMmOo+2cT279g="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-b9sayid5wm.gz",
+      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-cs7v0p45yv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2991,7 +3054,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "405"
         },
         {
           "Name": "Content-Type",
@@ -2999,11 +3062,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA=\""
+          "Value": "\"WHYrU4F1qi54zxnlbgrmyLIzIvvfn/tvL8i5OjAwY1M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 18:49:59 GMT"
+          "Value": "Wed, 05 Feb 2025 02:20:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3021,7 +3084,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KbRAtTdCZlkPQMEP8615MCQRMWQsaAwQYpxvPAoetmA="
+          "Value": "sha256-WHYrU4F1qi54zxnlbgrmyLIzIvvfn/tvL8i5OjAwY1M="
         }
       ]
     },
@@ -3320,6 +3383,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4="
+        }
+      ]
+    },
+    {
+      "Route": "images/books.jpg",
+      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/books.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "461246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oxV/kjRZk6knIsYwCq8nu/KRcVoZ+EEBBuMji1J1/S8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 23:28:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oxV/kjRZk6knIsYwCq8nu/KRcVoZ+EEBBuMji1J1/S8="
+        }
+      ]
+    },
+    {
+      "Route": "images/books.n3a65qhzba.jpg",
+      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/books.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "461246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oxV/kjRZk6knIsYwCq8nu/KRcVoZ+EEBBuMji1J1/S8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 23:28:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n3a65qhzba"
+        },
+        {
+          "Name": "label",
+          "Value": "images/books.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oxV/kjRZk6knIsYwCq8nu/KRcVoZ+EEBBuMji1J1/S8="
+        }
+      ]
+    },
+    {
+      "Route": "images/library.jzizcxx9v5.png",
+      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/library.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3114617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"30rghguazsQ8UdUkrf44PdM9IZmtofQZIOi1F1mosrY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 23:29:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jzizcxx9v5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/library.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-30rghguazsQ8UdUkrf44PdM9IZmtofQZIOi1F1mosrY="
+        }
+      ]
+    },
+    {
+      "Route": "images/library.png",
+      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/library.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3114617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"30rghguazsQ8UdUkrf44PdM9IZmtofQZIOi1F1mosrY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 23:29:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-30rghguazsQ8UdUkrf44PdM9IZmtofQZIOi1F1mosrY="
+        }
+      ]
+    },
+    {
+      "Route": "images/library2.2papb92x3k.png",
+      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/library2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36667008"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mu6st9CAFfroh8QBoQ6x8X7EJyoM7qU5NdaYrYGmx+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 23:54:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2papb92x3k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/library2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mu6st9CAFfroh8QBoQ6x8X7EJyoM7qU5NdaYrYGmx+w="
+        }
+      ]
+    },
+    {
+      "Route": "images/library2.png",
+      "AssetFile": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/library2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36667008"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mu6st9CAFfroh8QBoQ6x8X7EJyoM7qU5NdaYrYGmx+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 23:54:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mu6st9CAFfroh8QBoQ6x8X7EJyoM7qU5NdaYrYGmx+w="
         }
       ]
     },
@@ -21310,7 +21619,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21363,7 +21672,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21400,7 +21709,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21447,7 +21756,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21500,7 +21809,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21537,7 +21846,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21584,7 +21893,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21645,7 +21954,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21690,7 +21999,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21745,7 +22054,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21806,7 +22115,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21851,7 +22160,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:32:33 GMT"
+          "Value": "Wed, 05 Feb 2025 01:33:29 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -2,7 +2,128 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+            <img src="images/library2.png" class="d-block w-100 c-img" alt="Slide 1">
+            <div class="carousel-caption top-0 mt-4">
+                <p class="mt-5 fs-3 text-uppercase">Mehmet's Library</p>
+                <h1 class="display-2 fw-bolder text-capitalize">Discover the hidden world</h1>
+                <a asp-controller="User" asp-action="Create" class="btn btn-outline-warning btn-lg mt-5">Add Yourself To This
+                    Journey!</a>
+            </div>
+        </div>
+        <div class="carousel-item c-item">
+            <img src="images/books.jpg" class="d-block w-100 c-img" alt="Slide 2">
+            <div class="carousel-caption top-0 mt-4">
+                <p class="text-uppercase fs-3 mt-5">Mehmet's Library</p>
+                <p class="display-3 fw-bolder text-capitalize">Add a new treasure for readers</p>
+                <a asp-controller="Book" asp-action="Create" class="btn btn-outline-warning btn-lg">Donate Book For
+                    Readers!</a>
+            </div>
+        </div>
+        <div class="carousel-item c-item">
+            <img src="images/library.png" class="d-block w-100 c-img" alt="Slide 3">
+            <div class="carousel-caption top-0 mt-4">
+                <p class="text-uppercase fs-3 mt-5">Mehmet's Library</p>
+                <p class="display-2 fw-bolder text-capitalize">Borrow, Read, Return, Repeat!</p>
+                <a asp-controller="User" asp-action="Index" class="btn btn-outline-warning btn-lg">Barrow a Book!</a>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="accordion m-4 " id="accordionExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                About Us
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                We are a platform dedicated to making books accessible to everyone. Over the years, we've served
+                millions of readers and continue to spread the love for reading.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Our Services
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                - Book Lending: Our library offers a wide range of books that can be borrowed by members. <br>
+                - Study Rooms: We provide study rooms for quiet and focused reading or studying. <br>
+                - Events: We organize book clubs, author talks, and workshops for our members.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Frequently Asked Questions (FAQ)
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <b>How can I borrow a book?</b><br>
+                To borrow a book, you need to become a member. Once you're a member, you can select the book you want to
+                borrow.<br><br>
+                <b>How long can I borrow a book?</b><br>
+                Books can be borrowed for up to 15 days. You can extend the borrowing period upon request.
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 class="text-center mb-2">User Comments</h2>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 m-4">    
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+        </div>
+    </div>
 </div>

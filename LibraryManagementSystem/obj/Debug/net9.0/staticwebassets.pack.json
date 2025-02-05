@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/books.jpg",
+      "PackagePath": "staticwebassets/images/books.jpg"
+    },
+    {
+      "Id": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/library.png",
+      "PackagePath": "staticwebassets/images/library.png"
+    },
+    {
+      "Id": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/images/library2.png",
+      "PackagePath": "staticwebassets/images/library2.png"
+    },
+    {
       "Id": "/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

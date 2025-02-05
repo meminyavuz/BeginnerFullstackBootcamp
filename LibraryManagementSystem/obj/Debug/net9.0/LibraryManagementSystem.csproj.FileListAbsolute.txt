@@ -141,7 +141,6 @@
 /Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/scopedcss/bundle/LibraryManagementSystem.styles.css
 /Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/scopedcss/projectbundle/LibraryManagementSystem.bundle.scp.css
-/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-b9sayid5wm.gz
 /Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/zr0k1znti3-61n19gt1b8.gz
 /Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/3vdasg1s4h-bqjiyaj88i.gz
 /Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/y14ro44pb5-c2jlpeoesf.gz
@@ -220,3 +219,4 @@
 /Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/LibraryManagementSystem.genruntimeconfig.cache
 /Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/ref/LibraryManagementSystem.dll
 /Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/b6doqc2r4a-xtxxf3hu2r.gz
+/Users/meyavuz/Desktop/BeginnerFullstackBootcamp/LibraryManagementSystem/obj/Debug/net9.0/compressed/fwcji6d7r2-cs7v0p45yv.gz
